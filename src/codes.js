@@ -1,0 +1,1 @@
+module.exports.flip = (input, output) => `ffmpeg -i ${input} -vf hflip ${output}`
